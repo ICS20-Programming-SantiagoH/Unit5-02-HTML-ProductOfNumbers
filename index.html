@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    
+    <!-- metadata -->
+    <meta charset="utf-8" />
+    <meta name="description" content="Product of Numbers" />
+    <meta name="keywords" content="immaculata, ics2o" />
+    <meta name="author" content="Santiago Hewett" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    
+    <!-- Favicon code -->
+    <link rel="apple-touch-icon" sizes="180x180" href="./fav_index/apple-touch-icon.png" />
+    <link rel="icon" type="image/png" sizes="32x32" href="./fav_index/favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="./fav_index/favicon-16x16.png" />
+    <link rel="manifest" href="./fav_index/site.webmanifest" />
+    
+    <!-- MDL connector -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons" />
+    <link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.purple-blue.min.css" />
+    <!-- CSS connector -->
+    <link rel="stylesheet" href="./css/style.css" />
+    
+    <!-- Title -->
+    <title>Product of Numbers</title>
+  </head>
+  <body>
+    
+    <!-- JS connector -->
+    <script defer src="https://code.getmdl.io/1.3.0/material.min.js"></script>
+    <script src="./js/script.js"></script>
+
+    <center>
+    <!-- MDL header -->
+    <div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
+      <header class="mdl-layout__header">
+        <div class="mdl-layout__header-row">
+          <span class="mdl-layout-title">Product of Numbers</span>
+        </div>
+      </header>
+      
+      <!-- Movie image -->
+      <main class="mdl-layout__content">
+        <table>
+          <tr>
+            <th>
+              <img src="./images/product-of-numbers.png" alt="Product of Numbers" width="75%" height="auto"/>
+      </main>
+              
+              <!-- Request -->
+              <h5>Enter any number (positive or negative):</h5>
+              <!-- Numeric Textfield maximum -->
+              <form action=" javascript: enterClicked()">
+                <label for="firstNumber">Entre any number:</label>
+                <input type="number" name="firstNumber" id="firstNumber" placeholder="ex.9" step="1"><br><br>
+                
+                
+                <!-- Numeric Textfield minimum -->
+                <label for="secondNumber">Entre any Number:</label>
+                <input type="number" name="secondNumber" id="secondNumber" placeholder="ex.6" step="1"><br><br>
+                <input type="submit" name="submit numbers" value="Calculate Product">
+
+              </form>
+                <!-- Answer display -->
+                <h4>
+                  <div id="result"></div>
+                </h4>
+          </center>
+  </body>
+</html>
